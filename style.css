@@ -510,3 +510,86 @@ body {
 
   .pricing__card { padding: 36px 24px; }
 }
+
+/* ── GEO EXPLAINER ── */
+.geo-explainer {
+  background: #f8f9ff;
+  border-top: 1px solid #e8eaf6;
+  border-bottom: 1px solid #e8eaf6;
+}
+.geo-explainer__inner {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+.geo-explainer__badge {
+  display: inline-block;
+  background: #ede9fe;
+  color: #6d28d9;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+.geo-explainer__headline {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.geo-explainer__body {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+.geo-explainer__points {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+.geo-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1;
+  min-width: 200px;
+  max-width: 280px;
+}
+.geo-point__icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+.geo-point p {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+}
+.geo-point--vs {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #aaa;
+  min-width: auto;
+  flex: none;
+}
+.geo-explainer__cta-text {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+}
